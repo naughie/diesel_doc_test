@@ -16,7 +16,7 @@ Copy doc files in each container to local directory:
 
 ```
 $ docker cp 4c885e601433:target/doc/diesel_doc_test/index.html diesel.html
-$ docker cp e1b8dd1ff5cb:target/doc/diesel_doc_test/index.html diesel.html
+$ docker cp e1b8dd1ff5cb:target/doc/diesel_doc_test/index.html tokio.html
 ```
 
 (Replace `4c885e601433` and `e1b8dd1ff5cb` with acutual container's IDs.)
